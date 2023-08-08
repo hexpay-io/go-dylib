@@ -1,6 +1,6 @@
 package callers
 
-import "github.com/Sssilencee/go-dylib/dloader"
+import "github.com/hexpay-io/go-dylib/dloader"
 
 // Encapsulates the fields and methods of the original Dylib struct
 type Caller struct {

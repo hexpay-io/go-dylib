@@ -1,6 +1,6 @@
 # Dloader
 
-## [[example.go](https://github.com/Sssilencee/go-dylib/blob/main/example/example.go)]
+## [[example.go](https://github.com/hexpay-io/go-dylib/blob/main/example/example.go)]
 ```golang
 package main
 
@@ -10,7 +10,7 @@ import (
 
 	"example/callers"
 
-	"github.com/Sssilencee/go-dylib/dloader"
+	"github.com/hexpay-io/go-dylib/dloader"
 )
 
 func main() {
@@ -50,7 +50,7 @@ func main() {
 
 ```
 
-## [[callers_example.go](https://github.com/Sssilencee/go-dylib/blob/main/example/callers/callers.go)]
+## [[callers_example.go](https://github.com/hexpay-io/go-dylib/blob/main/example/callers/callers.go)]
 ```golang
 /*
 Dylib callers
@@ -84,7 +84,7 @@ func (d Caller) FreeCChar(ptr unsafe.Pointer) {
 }
 ```
 
-## [[lib.rs](https://github.com/Sssilencee/go-dylib/blob/main/dylib_example/src/lib.rs)]
+## [[lib.rs](https://github.com/hexpay-io/go-dylib/blob/main/dylib_example/src/lib.rs)]
 ```rust
 use std::ffi::{c_char, CString};
 

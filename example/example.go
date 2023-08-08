@@ -6,7 +6,7 @@ import (
 
 	"example/callers"
 
-	"github.com/Sssilencee/go-dylib/dloader"
+	"github.com/hexpay-io/go-dylib/dloader"
 )
 
 func main() {
